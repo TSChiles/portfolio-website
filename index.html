@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device0width, intitial-scale=1.0"?>
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54ad192a05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" height="100" width="200" alt="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+        <div class="header-text">
+            <img src="images/IMG_8060-2-r.png" align="right" height="545" width="426">
+            <h1><br><br>I'm Timothy Chiles </h1>
+            <h2><br>A Computer Engineer <br> from the <span>University</span> of <span2>Florida</span2><br><br><br></h2>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/46570_vg14300456c00-4.jpg" height="603" width="402">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a recent graduate of the University of Florida, I look forward to 
+                    applying my knowledge to create cutting-edge solutions and help people
+                    around me. I am hard working and enjoy continuously learning new things,
+                    challenging myself everyday to be a better engineer. I have a diverse
+                    skillset with experience in everything from Neural Networks to Hardware 
+                    Description Languages. I love working with others on projects but am also 
+                    not afraid to tackle a problem by myself. I hope to bring everything I have 
+                    and more to an innovative company.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Embedded System</span><br> A wide range of knowledge in Embedded Systems, dealing with communication protocols, RTOS, and much more.</li>
+                        <li><span>FPGA</span><br> Many projects in VHDL, dealing with FSMs, Pipelinging, and Clock-Domain Crossing using a Xilinx 7 Series FPGA and a Terasic DE0</li>
+                        <li><span>Software Development</span><br> Proficient in C, C++, Python, HTML, and more. I have experience in many projects using all of these languages.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>Automatic Guitar Tuner Senior Design</li>
+                        <li><span>2021-2023</span><br>UF Association of Computer Engineering Mentorship Chair</li>
+                        <li><span>2022</span><br> Technical Sales Intership at Appgate</li>
+                        <li><span>2021-2022</span><br> Teaching Assistant for Digital Logic</li>
+                        <li><span>2019</span><br>St. John's Island and Peru Mission Trip</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>University of Florida</span><br> B.S. in Computer Engineering</li>
+                        <li><span>GPA</span><br> 3.65/4.00</li>
+                        <li><span>Honors</span><br> Cum Laude</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-memory"></i>
+                <h2>Embedded Systems</h2>
+                <p>
+                    Check out my Embedded Systems Projects!
+                </p>
+                <a href="https://gitfront.io/r/TSChiles/Cac8YAhRthLe/UF/">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>FPGA</h2>
+                <p>
+                    Check out my FPGA Projects!
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Software Development</h2>
+                <p>
+                    Check out my Software Projects!
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/guitartuner.png" >
+                <div class="layer">
+                    <h3>Automatic Guitar Tuner</h3>
+                    <p>description of guitar tuner</p>
+                    <a href="https://youtu.be/emY8-uXGGco?si=TcodqfkY6k049SMR" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tiva-r.png" >
+                <div class="layer">
+                    <h3>Tiva RTOS</h3>
+                    <p>description of Tiva RTOS</p>
+                    <a href="https://youtu.be/HbQx2YkXWbg" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/peru2.jpeg" width="614" height="400" >
+                <div class="layer">
+                    <h3>Homeworks Peru Mission Trip</h3>
+                    <p>description of Mission Trip</p>
+                    <a href="https://homeworksofamerica.org/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://gitfront.io/r/TSChiles/Cac8YAhRthLe/UF/" target="_blank" class="btn">See more</a>
+    </div>
+</div>
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> t.chiles@ufl.edu</p>
+                <p><i class="fa-solid fa-phone"></i> 610-389-0537</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/timothy-chiles/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/TSChiles" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                <a href="images/ChilesResumeT.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwpXBjv7tqvGsoeau8eyd2Efjw6KaEdMcLZm6T3NgreNhAwFLyYIv2EKJcFLJK59VcX/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+            })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
